@@ -1,0 +1,25 @@
+@charset "UTF-8";
+header {
+  display: flex;
+  background: rgb(79, 79, 126);
+  color: white;
+}
+header button {
+  background: red;
+}
+header button:hover {
+  background: yellow;
+}
+header button::after {
+  content: "Olá";
+}
+header p {
+  color: black;
+}
+header h1 {
+  color: aqua;
+}
+
+.contato {
+  background: rgb(79, 79, 126);
+}/*# sourceMappingURL=index.css.map */
