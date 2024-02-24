@@ -1,26 +1,5 @@
-$primary: rgb(79, 79, 126);
-$secondary: red;
-
-header {
-  display: flex;
-  background: $primary;
-  color: white;
-  button {
-    background: $secondary;
-    &:hover {
-      background: yellow;
-    }
-    &::after {
-      content: "Olá"
-    }
-  }
-  p {
-    color: black;
-  }
-  h1 {
-    color: aqua;
-  }
-}
+@import './variables';
+@import './header';
 
 .contato {
   background: $primary;
