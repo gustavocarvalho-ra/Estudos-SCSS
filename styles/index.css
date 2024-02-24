@@ -1,7 +1,11 @@
 @charset "UTF-8";
 header {
   display: flex;
-  background: rgb(79, 79, 126);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: row;
+  background: rgb(10, 10, 39);
   color: white;
 }
 header button {
@@ -21,5 +25,10 @@ header h1 {
 }
 
 .contato {
-  background: rgb(79, 79, 126);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background: rgb(10, 10, 39);
 }/*# sourceMappingURL=index.css.map */
