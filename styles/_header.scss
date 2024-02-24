@@ -1,15 +1,17 @@
-@mixin flexCenter($direction) {
+// com os mixins dá para incluir parametros dentro de uma function do mesmo jeito que JS
+@mixin flexCenter($direction, $bg) {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   flex-direction: $direction;
+  background: $bg
 }
 
 header {
-  @include flexCenter(row);
-  background: $primary;
+  @include flexCenter(row, blue);
   color: white;
+
   button {
     background: $secondary;
     &:hover {
@@ -19,9 +21,11 @@ header {
       content: "Olá"
     }
   }
+
   p {
     color: black;
   }
+  
   h1 {
     color: aqua;
   }

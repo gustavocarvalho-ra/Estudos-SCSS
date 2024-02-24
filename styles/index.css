@@ -1,26 +1,26 @@
 @charset "UTF-8";
-header {
+header, .contato {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   flex-direction: row;
-  background: rgb(10, 10, 39);
+  background: blue;
   color: white;
 }
-header button {
+header button, .contato button {
   background: red;
 }
-header button:hover {
+header button:hover, .contato button:hover {
   background: yellow;
 }
-header button::after {
+header button::after, .contato button::after {
   content: "Olá";
 }
-header p {
+header p, .contato p {
   color: black;
 }
-header h1 {
+header h1, .contato h1 {
   color: aqua;
 }
 
@@ -30,5 +30,5 @@ header h1 {
   align-items: center;
   height: 100vh;
   flex-direction: column;
-  background: rgb(10, 10, 39);
+  background: yellow;
 }/*# sourceMappingURL=index.css.map */

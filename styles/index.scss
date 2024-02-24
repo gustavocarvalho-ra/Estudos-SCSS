@@ -2,6 +2,7 @@
 @import './header';
 
 .contato {
-  @include flexCenter(column);
-  background: $primary;
+  @include flexCenter(column, yellow);
+  @extend header;
 }
+// @extend = usado para "clonar" outra seleção
