@@ -17,19 +17,19 @@ body {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background-color: red;
+  background-color: #d62424;
 }
 
 .bola2 {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background-color: green;
+  background-color: blue;
 }
 
 .bola3 {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background-color: blue;
+  background-color: rgb(80, 80, 95);
 }/*# sourceMappingURL=style.css.map */

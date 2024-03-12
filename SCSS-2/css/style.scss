@@ -1,3 +1,7 @@
+$primaryColor: #d62424;
+$secondaryColor: blue;
+$neutraColor: rgb(80, 80, 95);
+
 * {
   padding: 0;
   margin: 0;
@@ -17,19 +21,19 @@ body {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background-color: red;
+  background-color: $primaryColor;
 }
 
 .bola2 {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background-color: green;
+  background-color: $secondaryColor;
 }
 
 .bola3 {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background-color: blue;
+  background-color: $neutraColor;
 }
