@@ -19,6 +19,12 @@ body {
   border-radius: 50%;
   background-color: #d62424;
 }
+.bola1 a {
+  color: blue;
+}
+.bola1:hover {
+  background-color: blue;
+}
 
 .bola2 {
   width: 200px;
